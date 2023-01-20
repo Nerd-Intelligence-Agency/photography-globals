@@ -1,7 +1,7 @@
 <?php
 /**
  * @package PhotographyKit_Globals
- * @version 0.2.3
+ * @version 1.0.1
  */
 /*
 Plugin Name: PhotographyKit Globals
