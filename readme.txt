@@ -27,17 +27,10 @@ e.g.
 
 == Changelog ==
 
-= 0.2.3 =
-move awesome support into own subfolder.
+= 1.0.2 =
+add nextgen block template
+add custome post tyoe for shoot user
 
-= 0.2.2 =
-move woocommerce into own subfolder.
-
-= 0.2.1 =
-Fix autoupdater github issue.
-
-= 0.2 =
-This version adds the auto updater.
-
-= 0.1 =
-This version is the intial release.
+= 1.0.1 =
+initial release.
+add cpt photoproof and photo final
