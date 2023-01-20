@@ -33,8 +33,8 @@ function photokit_proofing_post_type() {
 		'public' => true,
 		'show_ui' => true,
 		'show_in_menu' => true,
-    'query_var' => true,
-    'rewrite' => true,
+		'query_var' => true,
+		'rewrite' => true,
 		'menu_position' => 5,
 		'show_in_admin_bar' => true,
 		'show_in_nav_menus' => false,
@@ -43,6 +43,8 @@ function photokit_proofing_post_type() {
 		'hierarchical' => false,
 		'exclude_from_search' => false,
 		'show_in_rest' => true,
+		'template' => array(
+            array( 'imagely/nextgen-gallery', array() )),
 		'publicly_queryable' => true,
 		'capability_type' => 'post'
 	);
@@ -83,8 +85,8 @@ function photokit_finals_post_type() {
 		'public' => true,
 		'show_ui' => true,
 		'show_in_menu' => true,
-    'query_var' => true,
-    'rewrite' => true,
+		'query_var' => true,
+		'rewrite' => true,
 		'menu_position' => 5,
 		'show_in_admin_bar' => true,
 		'show_in_nav_menus' => false,
@@ -93,6 +95,8 @@ function photokit_finals_post_type() {
 		'hierarchical' => false,
 		'exclude_from_search' => false,
 		'show_in_rest' => true,
+		'template' => array(
+            array( 'imagely/nextgen-gallery', array() )),
 		'publicly_queryable' => true,
 		'capability_type' => 'post',
 	);
