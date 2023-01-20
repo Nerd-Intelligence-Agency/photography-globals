@@ -23,4 +23,4 @@ node_modules/
 *.sqlite
 
 # ignore mac ds store
-**/.DS_Store
+*/.DS_Store
